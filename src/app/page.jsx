@@ -11,7 +11,7 @@ function Home() {
         Welcome to the history quiz app
       </h1>
       <p className="mb-5">Please, choose the number of questions</p>
-      <div className="flex gap-2 justify-center">
+      <div className="flex gap-2 justify-center flex-wrap">
         <button
           onClick={() => {
             sessionStorage.setItem("numberOfQuestions", 5);
