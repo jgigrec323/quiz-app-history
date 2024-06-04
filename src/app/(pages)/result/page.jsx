@@ -16,7 +16,7 @@ const ResultPage = () => {
         Try again
       </Link>
       <p className="absolute bottom-20">
-        Made by jgigrec323. Follow me 👉
+        Made by Jean. Follow me 👉
         <a target="_blank" href="https://www.instagram.com/jgigrec323">
           @jgigrec323
         </a>

@@ -13,9 +13,11 @@ function Quiz() {
 
   const handleAnswer = (isCorrect) => {
     if (isCorrect) {
-      let step = 100 / shuffledQuestions.length;
-      step = Math.round(step * 100) / 100;
-      setScore(score + step);
+      setScore((prevScore) => {
+        let step = 100 / shuffledQuestions.length;
+        step = Math.round(step * 100) / 100;
+        return prevScore + step;
+      });
     }
     const nextQuestionIndex = currentQuestionIndex + 1;
     if (nextQuestionIndex < shuffledQuestions.length) {
@@ -33,6 +35,9 @@ function Quiz() {
     const shuffled = shuffle([...questions]);
     setShuffledQuestions(shuffled.slice(0, limit));
   }, []);
+  useEffect(() => {
+    sessionStorage.setItem("score", score);
+  }, [score]);
 
   return (
     <div className="h-screen overflow-auto">

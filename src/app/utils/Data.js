@@ -214,4 +214,263 @@ export const questions = [
       "Motherland Party",
     ],
   },
+  {
+    question:
+      "Which city served as the provisional capital during the Turkish War of Independence?",
+    correctAnswer: "Ankara",
+    propositions: ["Bursa", "Ankara", "Izmir", "Istanbul"],
+  },
+  {
+    question:
+      "During the İsmet İnönü era, which foreign policy principle guided Turkey's stance in international affairs?",
+    correctAnswer: "Neutrality",
+    propositions: [
+      "Isolationism",
+      "Interventionism",
+      "Neutrality",
+      "Expansionism",
+    ],
+  },
+  {
+    question:
+      "What were the main causes and outcomes of the Balkan Wars (1912-1913) and how did these events impact the geopolitical situation in the region?",
+    correctAnswer: "Shifting alliances and territorial changes",
+    propositions: [
+      "Shifting alliances and territorial changes",
+      "Economic cooperation and cultural exchanges",
+      "Religious reforms and social revolutions",
+      "Military isolation and international sanctions",
+    ],
+  },
+  {
+    question:
+      "What was the outcome of the Treaty of Sèvres (1920) for the Ottoman Empire?",
+    correctAnswer: "Territorial losses and occupation",
+    propositions: [
+      "Territorial losses and occupation",
+      "Economic prosperity",
+      "Alliance with the Allied Powers",
+      "Full sovereignty and independence",
+    ],
+  },
+  {
+    question:
+      "What was the main objective of the Turkish National Movement during the War of Independence?",
+    correctAnswer: "Preservation of territorial integrity and independence",
+    propositions: [
+      "Expansion of the caliphate",
+      "Preservation of territorial integrity and independence",
+      "Restoration of the Ottoman Empire",
+      "Establishment of a communist state",
+    ],
+  },
+  {
+    question:
+      "Which is correct for Turkey’s involvement in the Second World War?",
+    correctAnswer:
+      "Turkey was sympathetic to Britain and its Allies but declared war against Germany only symbolically at the end of the war",
+    propositions: [
+      "Turkey actively fought on the same side with Germany",
+      "From the start to the end Turkey never declared war on Germany",
+      "Turkey was sympathetic to Britain and its Allies but declared war against Germany only symbolically at the end of the war",
+      "Turkey actively fought on the same side with Britain",
+    ],
+  },
+  {
+    question:
+      "During the early Republic which group of people were targeted by the Population Exchange between Greece and Turkey?",
+    correctAnswer: "Greeks",
+    propositions: ["Kurds", "Greeks", "Circassians", "Armenians"],
+  },
+  {
+    question:
+      "What was the political ideology of the Republican People’s Party during the One-Party State period?",
+    correctAnswer: "Kemalism",
+    propositions: ["Monarchy", "Fascism", "Kemalism", "Communism"],
+  },
+  {
+    question:
+      "In 1928, what significant change was made to the Turkish alphabet as part of the language reform?",
+    correctAnswer: "Adoption of the Latin alphabet",
+    propositions: [
+      "Introduction of Cyrillic script",
+      "Incorporation of Greek letters",
+      "Adoption of the Latin alphabet",
+      "Implementation of Arabic script",
+    ],
+  },
+  {
+    question:
+      "What event marked the end of the Ottoman Empire and the beginning of the Republic of Turkey?",
+    correctAnswer: "Treaty of Lausanne",
+    propositions: [
+      "Treaty of Versailles",
+      "Treaty of Sèvres",
+      "Treaty of London",
+      "Treaty of Lausanne",
+    ],
+  },
+  {
+    question:
+      "Which one of the following was NOT the main aim of the Marshall Plan?",
+    correctAnswer: "to establish an international cultural pact",
+    propositions: [
+      "to help the Europeans in terms of strengthening their economy",
+      "to sustain lucrative export markets for US industry",
+      "to establish an international cultural pact",
+      "to eliminate poverty as a breeding ground for communism",
+    ],
+  },
+  {
+    question:
+      "The linguistic and historical theses of the 1930s were NOT about:",
+    correctAnswer:
+      "emphasizing Ottoman history as the most important part of Turkish history",
+    propositions: [
+      "creating a new national identity apart from the Ottoman past",
+      "establishing links between modern Turkey and ancient Anatolian civilizations such as the Hittites",
+      "boosting national pride by portraying Turkish culture as one of the oldest in the world",
+      "emphasizing Ottoman history as the most important part of Turkish history",
+    ],
+  },
+  {
+    question: "Who was the leader of Turkey during the 1974 Cyprus invasion?",
+    correctAnswer: "Bülent Ecevit",
+    propositions: [
+      "Kenan Evren",
+      "Bülent Ecevit",
+      "Süleyman Demirel",
+      "Turgut Özal",
+    ],
+  },
+  {
+    question:
+      "What was the main economic policy pursued by the Democrat Party in Turkey during the 1950s?",
+    correctAnswer: "Free-market capitalism",
+    propositions: [
+      "Protectionism",
+      "Free-market capitalism",
+      "State socialism",
+      "Import substitution",
+    ],
+  },
+  {
+    question:
+      "Which of the following does confirm that the Democratic Party implemented liberalization policies in Turkey in the 1950s?",
+    correctAnswer: "the introduction of a law to encourage foreign investment",
+    propositions: [
+      "the technological improvements in agriculture",
+      "the implementation of five-year development plan",
+      "the establishment of state banks",
+      "the introduction of a law to encourage foreign investment",
+    ],
+  },
+  {
+    question:
+      "In which year did Mustafa Kemal officially announce for the first time that the Turkish script would replace the Ottoman alphabet?",
+    correctAnswer: "1928",
+    propositions: ["1930", "1928", "1915", "1925"],
+  },
+  {
+    question:
+      "What was the primary goal of the land reforms introduced in Turkey during the 1950s and 1960s?",
+    correctAnswer: "Redistribution of land to peasants",
+    propositions: [
+      "Privatization of agricultural land",
+      "Redistribution of land to peasants",
+      "Nationalization of agricultural production",
+      "Industrialization of rural areas",
+    ],
+  },
+  {
+    question:
+      "Which political party came to power in Turkey in 1950 ending decades of single-party rule?",
+    correctAnswer: "Democrat Party (DP)",
+    propositions: [
+      "Justice and Development Party (AKP)",
+      "Republican People's Party (CHP)",
+      "Democrat Party (DP)",
+      "Nationalist Movement Party (MHP)",
+    ],
+  },
+  {
+    question:
+      "The Ottoman government unilaterally abolished the _______ in September 1914.",
+    correctAnswer: "Capitulations",
+    propositions: ["Caliphate", "Empire", "Capitulations", "Sultanate"],
+  },
+  {
+    question:
+      "Which is CORRECT for the last years of the Democratic Party government?",
+    correctAnswer:
+      "Economic decline and authoritarian policies created discontent especially among the educated urban population",
+    propositions: [
+      "Individual and collective freedoms were enlarged",
+      "The government showed solidarity with workers' movements",
+      "Economic growth continued at increasing speed",
+      "Economic decline and authoritarian policies created discontent especially among the educated urban population",
+    ],
+  },
+  {
+    question:
+      "How did the global economic crisis of 1929 influence economic policies in Turkey?",
+    correctAnswer:
+      "Turkey accepted a state-centric economic policy in the 1930s",
+    propositions: [
+      "Turkish government followed a free liberal market economy in the 1930s",
+      "Turkish government accepted a socialist economic model in the 1930s",
+      "Turkish government looked up to the United States as an example in the 1930s",
+      "Turkey accepted a state-centric economic policy in the 1930s",
+    ],
+  },
+  {
+    question: "From 1930 to 1946 Turkey had:",
+    correctAnswer: "single-party regime",
+    propositions: [
+      "all of the above",
+      "a socialist regime",
+      "single-party regime",
+      "multi-party democracy",
+    ],
+  },
+  {
+    question:
+      "What was the main objective of the Turkish National Movement during the War of Independence?",
+    correctAnswer: "Preservation of territorial integrity and independence",
+    propositions: [
+      "Expansion of the caliphate",
+      "Establishment of a communist state",
+      "Preservation of territorial integrity and independence",
+      "Restoration of the Ottoman Empire",
+    ],
+  },
+  {
+    question:
+      "What event marked the end of the Ottoman Empire and the beginning of the Republic of Turkey?",
+    correctAnswer: "Treaty of Lausanne",
+    propositions: [
+      "Treaty of London",
+      "Treaty of Sèvres",
+      "Treaty of Versailles",
+      "Treaty of Lausanne",
+    ],
+  },
+  {
+    question:
+      "The State Planning Office (Devlet Planlama Teşkilatı) was founded in 1960 in order to coordinate the developments in the fields of economic, social, and cultural planning.",
+    correctAnswer: "True",
+    propositions: ["True", "False"],
+  },
+  {
+    question:
+      "Which of the following WAS NOT true in regards to the immigration to Germany from Turkey?",
+    correctAnswer:
+      "Immigrants came back to Turkey right after they saved enough money.",
+    propositions: [
+      "Most immigrants faced with culture shock in Germany.",
+      "It started in the 1960s.",
+      "Immigrants came back to Turkey right after they saved enough money.",
+      "First immigrants were considered as guest workers.",
+    ],
+  },
 ];
