@@ -9,7 +9,7 @@ const ResultPage = () => {
     setScore(parseInt(sessionStorage.getItem("score"), 10));
   }, []);
   return (
-    <div className="overflow-hidden flex flex-col items-center mt-20 ">
+    <div className="h-screen overflow-hidden flex flex-col items-center mt-20 ">
       <h1 className="mb-10 text-xl font-bold">Quiz Result</h1>
       <p className="mb-5 text-green-500">YOUR SCORE: {score} / 100</p>
       <Link className="btn" href={"/"}>

@@ -35,7 +35,7 @@ function Quiz() {
   }, []);
 
   return (
-    <div>
+    <div className="h-screen">
       <div className="space-y-4">
         <h2 className="btn bg-green-500 text-white">Score : {score} / 100 </h2>
         <h2 className=" ml-2 btn bg-green-500 text-white">
