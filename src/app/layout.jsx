@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`font-sans ${inter.className}`}>
-        <main className="w-full h-full p-8 overflow-auto">{children}</main>
+        <main className="w-full h-screen p-8 overflow-auto">{children}</main>
       </body>
     </html>
   );

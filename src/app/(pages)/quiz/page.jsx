@@ -14,7 +14,7 @@ function Quiz() {
   const handleAnswer = (isCorrect) => {
     if (isCorrect) {
       let step = 100 / shuffledQuestions.length;
-
+      step = Math.round(step * 100) / 100;
       setScore(score + step);
     }
     const nextQuestionIndex = currentQuestionIndex + 1;
@@ -35,7 +35,7 @@ function Quiz() {
   }, []);
 
   return (
-    <div className="h-screen">
+    <div className="h-screen overflow-auto">
       <div className="space-y-4">
         <h2 className="btn bg-green-500 text-white">Score : {score} / 100 </h2>
         <h2 className=" ml-2 btn bg-green-500 text-white">
