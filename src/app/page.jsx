@@ -46,7 +46,7 @@ function Home() {
           }}
           className="btn"
         >
-          All
+          All({questions.length})
         </button>
       </div>
     </div>

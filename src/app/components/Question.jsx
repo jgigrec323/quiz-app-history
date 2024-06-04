@@ -44,7 +44,7 @@ function Question({ question, propositions, correctAnswer, onAnswer }) {
             }
             ${
               proposition === correctAnswer && !isCorrect && showOutline
-                ? "bg-green-500 text-white"
+                ? "btn-success"
                 : ""
             }
             ${
