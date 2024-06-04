@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { useRouter } from "next/navigation";
+import { questions } from "@/app/utils/Data";
 
 function Home() {
   const router = useRouter();
@@ -37,6 +38,15 @@ function Home() {
           className="btn"
         >
           20
+        </button>
+        <button
+          onClick={() => {
+            sessionStorage.setItem("numberOfQuestions", questions.length);
+            router.push("/quiz");
+          }}
+          className="btn"
+        >
+          All
         </button>
       </div>
     </div>
